@@ -1,0 +1,1194 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "a",
+            "range": [
+              26,
+              27
+            ]
+          },
+          "init": {
+            "type": "Literal",
+            "value": 2,
+            "raw": "2",
+            "range": [
+              30,
+              31
+            ]
+          },
+          "range": [
+            26,
+            31
+          ]
+        }
+      ],
+      "kind": "const",
+      "range": [
+        20,
+        31
+      ]
+    },
+    {
+      "type": "VariableDeclaration",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "A",
+            "range": [
+              38,
+              39
+            ]
+          },
+          "init": {
+            "type": "ArrowFunctionExpression",
+            "generator": false,
+            "id": null,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "expression": {
+                    "type": "CallExpression",
+                    "callee": {
+                      "type": "Identifier",
+                      "name": "useEffect",
+                      "range": [
+                        51,
+                        60
+                      ]
+                    },
+                    "arguments": [
+                      {
+                        "type": "ArrowFunctionExpression",
+                        "generator": false,
+                        "id": null,
+                        "params": [],
+                        "body": {
+                          "type": "BlockStatement",
+                          "body": [],
+                          "range": [
+                            65,
+                            67
+                          ]
+                        },
+                        "async": false,
+                        "expression": false,
+                        "range": [
+                          61,
+                          67
+                        ]
+                      },
+                      {
+                        "type": "ArrayExpression",
+                        "elements": [],
+                        "range": [
+                          68,
+                          70
+                        ]
+                      }
+                    ],
+                    "optional": false,
+                    "range": [
+                      51,
+                      71
+                    ]
+                  },
+                  "range": [
+                    51,
+                    71
+                  ]
+                },
+                {
+                  "type": "ReturnStatement",
+                  "argument": {
+                    "type": "JSXFragment",
+                    "openingFragment": {
+                      "type": "JSXOpeningFragment",
+                      "range": [
+                        97,
+                        99
+                      ]
+                    },
+                    "closingFragment": {
+                      "type": "JSXClosingFragment",
+                      "range": [
+                        829,
+                        832
+                      ]
+                    },
+                    "children": [
+                      {
+                        "type": "Literal",
+                        "value": "",
+                        "raw": "",
+                        "range": [
+                          99,
+                          105
+                        ]
+                      },
+                      {
+                        "type": "JSXElement",
+                        "openingElement": {
+                          "type": "JSXOpeningElement",
+                          "selfClosing": false,
+                          "name": {
+                            "type": "JSXIdentifier",
+                            "name": "TouchableOpacity",
+                            "range": [
+                              106,
+                              122
+                            ]
+                          },
+                          "attributes": [
+                            {
+                              "type": "JSXAttribute",
+                              "name": {
+                                "type": "JSXIdentifier",
+                                "name": "activeOpacity",
+                                "range": [
+                                  129,
+                                  142
+                                ]
+                              },
+                              "value": {
+                                "type": "JSXExpressionContainer",
+                                "expression": {
+                                  "type": "Literal",
+                                  "value": 8,
+                                  "raw": "8",
+                                  "range": [
+                                    144,
+                                    147
+                                  ]
+                                },
+                                "range": [
+                                  143,
+                                  148
+                                ]
+                              },
+                              "range": [
+                                129,
+                                148
+                              ]
+                            },
+                            {
+                              "type": "JSXAttribute",
+                              "name": {
+                                "type": "JSXIdentifier",
+                                "name": "style",
+                                "range": [
+                                  155,
+                                  160
+                                ]
+                              },
+                              "value": {
+                                "type": "JSXExpressionContainer",
+                                "expression": {
+                                  "type": "ConditionalExpression",
+                                  "test": {
+                                    "type": "Identifier",
+                                    "name": "isLink",
+                                    "range": [
+                                      162,
+                                      168
+                                    ]
+                                  },
+                                  "consequent": {
+                                    "type": "ObjectExpression",
+                                    "properties": [
+                                      {
+                                        "type": "Property",
+                                        "key": {
+                                          "type": "Identifier",
+                                          "name": "width",
+                                          "range": [
+                                            173,
+                                            178
+                                          ]
+                                        },
+                                        "value": {
+                                          "type": "Literal",
+                                          "value": 280,
+                                          "raw": "280",
+                                          "range": [
+                                            180,
+                                            183
+                                          ]
+                                        },
+                                        "computed": false,
+                                        "method": false,
+                                        "shorthand": false,
+                                        "kind": "init",
+                                        "range": [
+                                          173,
+                                          183
+                                        ]
+                                      },
+                                      {
+                                        "type": "Property",
+                                        "key": {
+                                          "type": "Identifier",
+                                          "name": "paddingLeft",
+                                          "range": [
+                                            185,
+                                            196
+                                          ]
+                                        },
+                                        "value": {
+                                          "type": "Literal",
+                                          "value": 7,
+                                          "raw": "7",
+                                          "range": [
+                                            198,
+                                            199
+                                          ]
+                                        },
+                                        "computed": false,
+                                        "method": false,
+                                        "shorthand": false,
+                                        "kind": "init",
+                                        "range": [
+                                          185,
+                                          199
+                                        ]
+                                      },
+                                      {
+                                        "type": "Property",
+                                        "key": {
+                                          "type": "Identifier",
+                                          "name": "minHeight",
+                                          "range": [
+                                            201,
+                                            210
+                                          ]
+                                        },
+                                        "value": {
+                                          "type": "Literal",
+                                          "value": 72,
+                                          "raw": "72",
+                                          "range": [
+                                            212,
+                                            214
+                                          ]
+                                        },
+                                        "computed": false,
+                                        "method": false,
+                                        "shorthand": false,
+                                        "kind": "init",
+                                        "range": [
+                                          201,
+                                          214
+                                        ]
+                                      }
+                                    ],
+                                    "range": [
+                                      171,
+                                      216
+                                    ]
+                                  },
+                                  "alternate": {
+                                    "type": "MemberExpression",
+                                    "object": {
+                                      "type": "Identifier",
+                                      "name": "shared",
+                                      "range": [
+                                        219,
+                                        225
+                                      ]
+                                    },
+                                    "property": {
+                                      "type": "Identifier",
+                                      "name": "innerPad",
+                                      "range": [
+                                        226,
+                                        234
+                                      ]
+                                    },
+                                    "computed": false,
+                                    "optional": false,
+                                    "range": [
+                                      219,
+                                      234
+                                    ]
+                                  },
+                                  "range": [
+                                    162,
+                                    234
+                                  ]
+                                },
+                                "range": [
+                                  161,
+                                  235
+                                ]
+                              },
+                              "range": [
+                                155,
+                                235
+                              ]
+                            },
+                            {
+                              "type": "JSXAttribute",
+                              "name": {
+                                "type": "JSXIdentifier",
+                                "name": "onLongPress",
+                                "range": [
+                                  242,
+                                  253
+                                ]
+                              },
+                              "value": {
+                                "type": "JSXExpressionContainer",
+                                "expression": {
+                                  "type": "Identifier",
+                                  "name": "onLongPressHandler",
+                                  "range": [
+                                    255,
+                                    273
+                                  ]
+                                },
+                                "range": [
+                                  254,
+                                  274
+                                ]
+                              },
+                              "range": [
+                                242,
+                                274
+                              ]
+                            }
+                          ],
+                          "range": [
+                            105,
+                            280
+                          ]
+                        },
+                        "closingElement": {
+                          "type": "JSXClosingElement",
+                          "name": {
+                            "type": "JSXIdentifier",
+                            "name": "TouchableOpacity",
+                            "range": [
+                              804,
+                              820
+                            ]
+                          },
+                          "range": [
+                            802,
+                            821
+                          ]
+                        },
+                        "children": [
+                          {
+                            "type": "JSXExpressionContainer",
+                            "expression": {
+                              "type": "ConditionalExpression",
+                              "test": {
+                                "type": "Identifier",
+                                "name": "isLink",
+                                "range": [
+                                  281,
+                                  287
+                                ]
+                              },
+                              "consequent": {
+                                "type": "JSXElement",
+                                "openingElement": {
+                                  "type": "JSXOpeningElement",
+                                  "selfClosing": false,
+                                  "name": {
+                                    "type": "JSXIdentifier",
+                                    "name": "View",
+                                    "range": [
+                                      301,
+                                      305
+                                    ]
+                                  },
+                                  "attributes": [
+                                    {
+                                      "type": "JSXAttribute",
+                                      "name": {
+                                        "type": "JSXIdentifier",
+                                        "name": "style",
+                                        "range": [
+                                          306,
+                                          311
+                                        ]
+                                      },
+                                      "value": {
+                                        "type": "JSXExpressionContainer",
+                                        "expression": {
+                                          "type": "MemberExpression",
+                                          "object": {
+                                            "type": "Identifier",
+                                            "name": "styles",
+                                            "range": [
+                                              313,
+                                              319
+                                            ]
+                                          },
+                                          "property": {
+                                            "type": "Identifier",
+                                            "name": "linkWrap",
+                                            "range": [
+                                              320,
+                                              328
+                                            ]
+                                          },
+                                          "computed": false,
+                                          "optional": false,
+                                          "range": [
+                                            313,
+                                            328
+                                          ]
+                                        },
+                                        "range": [
+                                          312,
+                                          329
+                                        ]
+                                      },
+                                      "range": [
+                                        306,
+                                        329
+                                      ]
+                                    }
+                                  ],
+                                  "range": [
+                                    300,
+                                    330
+                                  ]
+                                },
+                                "closingElement": {
+                                  "type": "JSXClosingElement",
+                                  "name": {
+                                    "type": "JSXIdentifier",
+                                    "name": "View",
+                                    "range": [
+                                      604,
+                                      608
+                                    ]
+                                  },
+                                  "range": [
+                                    602,
+                                    609
+                                  ]
+                                },
+                                "children": [
+                                  {
+                                    "type": "Literal",
+                                    "value": "",
+                                    "raw": "",
+                                    "range": [
+                                      330,
+                                      341
+                                    ]
+                                  },
+                                  {
+                                    "type": "JSXElement",
+                                    "openingElement": {
+                                      "type": "JSXOpeningElement",
+                                      "selfClosing": false,
+                                      "name": {
+                                        "type": "JSXIdentifier",
+                                        "name": "TouchableOpacity",
+                                        "range": [
+                                          342,
+                                          358
+                                        ]
+                                      },
+                                      "attributes": [
+                                        {
+                                          "type": "JSXAttribute",
+                                          "name": {
+                                            "type": "JSXIdentifier",
+                                            "name": "onPress",
+                                            "range": [
+                                              359,
+                                              366
+                                            ]
+                                          },
+                                          "value": {
+                                            "type": "JSXExpressionContainer",
+                                            "expression": {
+                                              "type": "Identifier",
+                                              "name": "openLink",
+                                              "range": [
+                                                368,
+                                                376
+                                              ]
+                                            },
+                                            "range": [
+                                              367,
+                                              377
+                                            ]
+                                          },
+                                          "range": [
+                                            359,
+                                            377
+                                          ]
+                                        }
+                                      ],
+                                      "range": [
+                                        341,
+                                        378
+                                      ]
+                                    },
+                                    "closingElement": {
+                                      "type": "JSXClosingElement",
+                                      "name": {
+                                        "type": "JSXIdentifier",
+                                        "name": "TouchableOpacity",
+                                        "range": [
+                                          503,
+                                          519
+                                        ]
+                                      },
+                                      "range": [
+                                        501,
+                                        520
+                                      ]
+                                    },
+                                    "children": [
+                                      {
+                                        "type": "Literal",
+                                        "value": "",
+                                        "raw": "",
+                                        "range": [
+                                          378,
+                                          391
+                                        ]
+                                      },
+                                      {
+                                        "type": "JSXElement",
+                                        "openingElement": {
+                                          "type": "JSXOpeningElement",
+                                          "selfClosing": false,
+                                          "name": {
+                                            "type": "JSXIdentifier",
+                                            "name": "Typography",
+                                            "range": [
+                                              392,
+                                              402
+                                            ]
+                                          },
+                                          "attributes": [
+                                            {
+                                              "type": "JSXAttribute",
+                                              "name": {
+                                                "type": "JSXIdentifier",
+                                                "name": "color",
+                                                "range": [
+                                                  403,
+                                                  408
+                                                ]
+                                              },
+                                              "value": {
+                                                "type": "JSXExpressionContainer",
+                                                "expression": {
+                                                  "type": "MemberExpression",
+                                                  "object": {
+                                                    "type": "Identifier",
+                                                    "name": "theme",
+                                                    "range": [
+                                                      410,
+                                                      415
+                                                    ]
+                                                  },
+                                                  "property": {
+                                                    "type": "Identifier",
+                                                    "name": "text",
+                                                    "range": [
+                                                      416,
+                                                      420
+                                                    ]
+                                                  },
+                                                  "computed": false,
+                                                  "optional": false,
+                                                  "range": [
+                                                    410,
+                                                    420
+                                                  ]
+                                                },
+                                                "range": [
+                                                  409,
+                                                  421
+                                                ]
+                                              },
+                                              "range": [
+                                                403,
+                                                421
+                                              ]
+                                            },
+                                            {
+                                              "type": "JSXAttribute",
+                                              "name": {
+                                                "type": "JSXIdentifier",
+                                                "name": "size",
+                                                "range": [
+                                                  422,
+                                                  426
+                                                ]
+                                              },
+                                              "value": {
+                                                "type": "JSXExpressionContainer",
+                                                "expression": {
+                                                  "type": "Literal",
+                                                  "value": 15,
+                                                  "raw": "15",
+                                                  "range": [
+                                                    428,
+                                                    430
+                                                  ]
+                                                },
+                                                "range": [
+                                                  427,
+                                                  431
+                                                ]
+                                              },
+                                              "range": [
+                                                422,
+                                                431
+                                              ]
+                                            }
+                                          ],
+                                          "range": [
+                                            391,
+                                            432
+                                          ]
+                                        },
+                                        "closingElement": {
+                                          "type": "JSXClosingElement",
+                                          "name": {
+                                            "type": "JSXIdentifier",
+                                            "name": "Typography",
+                                            "range": [
+                                              479,
+                                              489
+                                            ]
+                                          },
+                                          "range": [
+                                            477,
+                                            490
+                                          ]
+                                        },
+                                        "children": [
+                                          {
+                                            "type": "Literal",
+                                            "value": "",
+                                            "raw": "",
+                                            "range": [
+                                              432,
+                                              447
+                                            ]
+                                          },
+                                          {
+                                            "type": "JSXExpressionContainer",
+                                            "expression": {
+                                              "type": "Identifier",
+                                              "name": "message_content",
+                                              "range": [
+                                                448,
+                                                463
+                                              ]
+                                            },
+                                            "range": [
+                                              447,
+                                              464
+                                            ]
+                                          },
+                                          {
+                                            "type": "Literal",
+                                            "value": "",
+                                            "raw": "",
+                                            "range": [
+                                              464,
+                                              477
+                                            ]
+                                          }
+                                        ],
+                                        "range": [
+                                          391,
+                                          490
+                                        ]
+                                      },
+                                      {
+                                        "type": "Literal",
+                                        "value": "",
+                                        "raw": "",
+                                        "range": [
+                                          490,
+                                          501
+                                        ]
+                                      }
+                                    ],
+                                    "range": [
+                                      341,
+                                      520
+                                    ]
+                                  },
+                                  {
+                                    "type": "Literal",
+                                    "value": "",
+                                    "raw": "",
+                                    "range": [
+                                      520,
+                                      531
+                                    ]
+                                  },
+                                  {
+                                    "type": "JSXElement",
+                                    "openingElement": {
+                                      "type": "JSXOpeningElement",
+                                      "selfClosing": true,
+                                      "name": {
+                                        "type": "JSXIdentifier",
+                                        "name": "RNUrlPreview",
+                                        "range": [
+                                          532,
+                                          544
+                                        ]
+                                      },
+                                      "attributes": [
+                                        {
+                                          "type": "JSXSpreadAttribute",
+                                          "argument": {
+                                            "type": "CallExpression",
+                                            "callee": {
+                                              "type": "Identifier",
+                                              "name": "linkStyles",
+                                              "range": [
+                                                549,
+                                                559
+                                              ]
+                                            },
+                                            "arguments": [
+                                              {
+                                                "type": "Identifier",
+                                                "name": "theme",
+                                                "range": [
+                                                  560,
+                                                  565
+                                                ]
+                                              }
+                                            ],
+                                            "optional": false,
+                                            "range": [
+                                              549,
+                                              566
+                                            ]
+                                          },
+                                          "range": [
+                                            545,
+                                            567
+                                          ]
+                                        },
+                                        {
+                                          "type": "JSXAttribute",
+                                          "name": {
+                                            "type": "JSXIdentifier",
+                                            "name": "text",
+                                            "range": [
+                                              568,
+                                              572
+                                            ]
+                                          },
+                                          "value": {
+                                            "type": "JSXExpressionContainer",
+                                            "expression": {
+                                              "type": "Identifier",
+                                              "name": "message_content",
+                                              "range": [
+                                                574,
+                                                589
+                                              ]
+                                            },
+                                            "range": [
+                                              573,
+                                              590
+                                            ]
+                                          },
+                                          "range": [
+                                            568,
+                                            590
+                                          ]
+                                        }
+                                      ],
+                                      "range": [
+                                        531,
+                                        593
+                                      ]
+                                    },
+                                    "closingElement": null,
+                                    "children": [],
+                                    "range": [
+                                      531,
+                                      593
+                                    ]
+                                  },
+                                  {
+                                    "type": "Literal",
+                                    "value": "",
+                                    "raw": "",
+                                    "range": [
+                                      593,
+                                      602
+                                    ]
+                                  }
+                                ],
+                                "range": [
+                                  300,
+                                  609
+                                ]
+                              },
+                              "alternate": {
+                                "type": "JSXElement",
+                                "openingElement": {
+                                  "type": "JSXOpeningElement",
+                                  "selfClosing": false,
+                                  "name": {
+                                    "type": "JSXIdentifier",
+                                    "name": "Typography",
+                                    "range": [
+                                      631,
+                                      641
+                                    ]
+                                  },
+                                  "attributes": [
+                                    {
+                                      "type": "JSXAttribute",
+                                      "name": {
+                                        "type": "JSXIdentifier",
+                                        "name": "color",
+                                        "range": [
+                                          642,
+                                          647
+                                        ]
+                                      },
+                                      "value": {
+                                        "type": "JSXExpressionContainer",
+                                        "expression": {
+                                          "type": "MemberExpression",
+                                          "object": {
+                                            "type": "Identifier",
+                                            "name": "theme",
+                                            "range": [
+                                              649,
+                                              654
+                                            ]
+                                          },
+                                          "property": {
+                                            "type": "Identifier",
+                                            "name": "text",
+                                            "range": [
+                                              655,
+                                              659
+                                            ]
+                                          },
+                                          "computed": false,
+                                          "optional": false,
+                                          "range": [
+                                            649,
+                                            659
+                                          ]
+                                        },
+                                        "range": [
+                                          648,
+                                          660
+                                        ]
+                                      },
+                                      "range": [
+                                        642,
+                                        660
+                                      ]
+                                    },
+                                    {
+                                      "type": "JSXAttribute",
+                                      "name": {
+                                        "type": "JSXIdentifier",
+                                        "name": "size",
+                                        "range": [
+                                          661,
+                                          665
+                                        ]
+                                      },
+                                      "value": {
+                                        "type": "JSXExpressionContainer",
+                                        "expression": {
+                                          "type": "Literal",
+                                          "value": 15,
+                                          "raw": "15",
+                                          "range": [
+                                            667,
+                                            669
+                                          ]
+                                        },
+                                        "range": [
+                                          666,
+                                          670
+                                        ]
+                                      },
+                                      "range": [
+                                        661,
+                                        670
+                                      ]
+                                    }
+                                  ],
+                                  "range": [
+                                    630,
+                                    671
+                                  ]
+                                },
+                                "closingElement": {
+                                  "type": "JSXClosingElement",
+                                  "name": {
+                                    "type": "JSXIdentifier",
+                                    "name": "Typography",
+                                    "range": [
+                                      710,
+                                      720
+                                    ]
+                                  },
+                                  "range": [
+                                    708,
+                                    721
+                                  ]
+                                },
+                                "children": [
+                                  {
+                                    "type": "Literal",
+                                    "value": "",
+                                    "raw": "",
+                                    "range": [
+                                      671,
+                                      682
+                                    ]
+                                  },
+                                  {
+                                    "type": "JSXExpressionContainer",
+                                    "expression": {
+                                      "type": "Identifier",
+                                      "name": "message_content",
+                                      "range": [
+                                        683,
+                                        698
+                                      ]
+                                    },
+                                    "range": [
+                                      682,
+                                      699
+                                    ]
+                                  },
+                                  {
+                                    "type": "Literal",
+                                    "value": "",
+                                    "raw": "",
+                                    "range": [
+                                      699,
+                                      708
+                                    ]
+                                  }
+                                ],
+                                "range": [
+                                  630,
+                                  721
+                                ]
+                              },
+                              "range": [
+                                281,
+                                729
+                              ]
+                            },
+                            "range": [
+                              280,
+                              730
+                            ]
+                          },
+                          {
+                            "type": "Literal",
+                            "value": "",
+                            "raw": "",
+                            "range": [
+                              730,
+                              737
+                            ]
+                          },
+                          {
+                            "type": "JSXExpressionContainer",
+                            "expression": {
+                              "type": "LogicalExpression",
+                              "operator": "&&",
+                              "left": {
+                                "type": "Identifier",
+                                "name": "showBoostRow",
+                                "range": [
+                                  738,
+                                  750
+                                ]
+                              },
+                              "right": {
+                                "type": "JSXElement",
+                                "openingElement": {
+                                  "type": "JSXOpeningElement",
+                                  "selfClosing": true,
+                                  "name": {
+                                    "type": "JSXIdentifier",
+                                    "name": "BoostRow",
+                                    "range": [
+                                      755,
+                                      763
+                                    ]
+                                  },
+                                  "attributes": [
+                                    {
+                                      "type": "JSXSpreadAttribute",
+                                      "argument": {
+                                        "type": "Identifier",
+                                        "name": "props",
+                                        "range": [
+                                          768,
+                                          773
+                                        ]
+                                      },
+                                      "range": [
+                                        764,
+                                        774
+                                      ]
+                                    },
+                                    {
+                                      "type": "JSXAttribute",
+                                      "name": {
+                                        "type": "JSXIdentifier",
+                                        "name": "myAlias",
+                                        "range": [
+                                          775,
+                                          782
+                                        ]
+                                      },
+                                      "value": {
+                                        "type": "JSXExpressionContainer",
+                                        "expression": {
+                                          "type": "MemberExpression",
+                                          "object": {
+                                            "type": "Identifier",
+                                            "name": "props",
+                                            "range": [
+                                              784,
+                                              789
+                                            ]
+                                          },
+                                          "property": {
+                                            "type": "Identifier",
+                                            "name": "myAlias",
+                                            "range": [
+                                              790,
+                                              797
+                                            ]
+                                          },
+                                          "computed": false,
+                                          "optional": false,
+                                          "range": [
+                                            784,
+                                            797
+                                          ]
+                                        },
+                                        "range": [
+                                          783,
+                                          798
+                                        ]
+                                      },
+                                      "range": [
+                                        775,
+                                        798
+                                      ]
+                                    }
+                                  ],
+                                  "range": [
+                                    754,
+                                    801
+                                  ]
+                                },
+                                "closingElement": null,
+                                "children": [],
+                                "range": [
+                                  754,
+                                  801
+                                ]
+                              },
+                              "range": [
+                                738,
+                                801
+                              ]
+                            },
+                            "range": [
+                              737,
+                              802
+                            ]
+                          }
+                        ],
+                        "range": [
+                          105,
+                          821
+                        ]
+                      },
+                      {
+                        "type": "Literal",
+                        "value": "",
+                        "raw": "",
+                        "range": [
+                          821,
+                          829
+                        ]
+                      }
+                    ],
+                    "range": [
+                      97,
+                      832
+                    ]
+                  },
+                  "range": [
+                    83,
+                    836
+                  ]
+                }
+              ],
+              "range": [
+                47,
+                838
+              ]
+            },
+            "async": false,
+            "expression": false,
+            "range": [
+              41,
+              838
+            ]
+          },
+          "range": [
+            38,
+            838
+          ]
+        }
+      ],
+      "kind": "const",
+      "range": [
+        32,
+        838
+      ]
+    }
+  ],
+  "sourceType": "module",
+  "range": [
+    20,
+    838
+  ]
+}
